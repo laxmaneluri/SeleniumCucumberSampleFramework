@@ -6,4 +6,4 @@ Feature: User should be able to login to application
     Given Application is launched
     When a user enters credentials "sampleuser@gmail.com" and "myPassword123#"
     Then user is logged in to application
-    And user can see profile option
+    And user can see profile settings
